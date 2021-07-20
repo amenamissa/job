@@ -231,28 +231,41 @@ font-size: 16px;
     margin: auto;
     display: flex;
   
+  
 }
 .form_container{
     width: 1150px;
     margin: 0 auto;
     padding: 100px;
+    text-align: center;
+  
 }
 .Pictures__inner{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 480px 480px 480px 480px;
-   
     margin-top: 28px;
-}
-.Pictures__container{
     
-height: 480px;
-width: 480px;
 }
-.rectengle{
-    width: 480px;
+
+
+
+
+
+.Pictures__container{
     height: 480px;
+    width: 480px;
 }
+
+
+.rectengle{
+    height: 480px;
+    width: 480px;
+    background-color: rgba(52,84,122, 0.8);
+}
+
+
+
 .container_microsoft{
     margin-top: 72px;
     height: 292px;
@@ -279,14 +292,19 @@ margin-bottom: 100px;
 }
 
 .name {
-  width:255px;
-  height:50px; 
+  
+  font-size: 14px;
+  line-height: 23px;
+  padding: 17px 0 18px 20px;
+  width: 236px;
 }
 
 .email {
-    margin-left: 25px;
-    width:255px;
-    height:50px;
+    margin-left: 21px;
+    padding: 17px 0 18px 20px;
+    font-size: 14px;
+    line-height: 23px;
+    width: 236px;
    
 }
 .form__inner{
@@ -306,15 +324,35 @@ margin-bottom: 100px;
     margin: 0 auto;
     display: flex;
 }
+.commentBlock{
+    width: 540px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
 .button_inner{
-    position: absolute;
-    margin: 320px 160px;
+    
+    margin: 50px 0;
     line-height: 26px;
     font-size: 14px;
 }
+
+.container-massage{
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+.massage{   
+    width: 540px;
+    height: 175px;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
 .footer{
     max-width: 1920px;
-    height: 151px;
     margin: 0 auto;
     background-color: #34547A;
 }
